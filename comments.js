@@ -28,7 +28,7 @@ app.get('/', (req, res) => {
         } else {
             res.render('index', {comments: comments});
         }
-    });
+    } );
 });
 
 //Post comment
